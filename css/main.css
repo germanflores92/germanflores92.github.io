@@ -1,0 +1,129 @@
+/* Color Declarations */
+:root {
+    --main-color: #DDE3E9;
+    --footer-top: #CECECE;
+    --footer-bottom: #303442;
+    --link-color: #9f9fa0;
+    --link-hover-color: #949496;
+}
+/* General Style Rules */
+body {
+  padding-top: 56px;
+}
+
+.highlight {
+    color: white;
+    text-shadow:
+    -.5px -.5px 0 #000,
+    .5px -.5px 0 #000,
+    -.5px .5px 0 #000,
+    .5px .5px 0 #000;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+
+  #googleMap {
+    min-height: 200px;
+  }
+
+  .border-right {
+      border: none !important;
+  }
+
+}
+
+#googleMap {
+    height: 300px;
+}
+
+/* Gallery Style Rules */
+.gallery img {
+    margin-top: 8px;
+    vertical-align: middle;
+    
+}
+
+.gallery {
+    padding: 0 4px !important;
+}
+
+#gallery_grid {
+    padding: 0 4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-carousel {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.anchor {
+    display: block;
+    height: 65px;
+    margin-top: -65px;
+    visibility: hidden;
+}
+
+/* Services Section */
+ .container {
+    position: relative;
+    width: 50%;
+  }
+
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .service_btn {
+    position: absolute;
+    padding: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ffffff00;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    border: 1px white solid;
+    text-decoration: none;
+  }
+  
+  .servicesImg:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+    cursor: pointer;
+  } 
+
+/* Footer Style Rules */
+.page-footer {
+    background-color: var(--footer-top)
+}
+.footer-copyright {
+    background-color: var(--footer-bottom);
+}
+
+/* Contact Section */
+.contact-info a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.contact-info a:hover {
+    color: var(--link-hover-color) !important;
+}
+
+.contact-address {
+    margin-bottom: 15px;
+}
