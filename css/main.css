@@ -74,17 +74,17 @@ body {
 }
 
 /* Services Section */
- .container {
+.container {
     position: relative;
     width: 50%;
   }
 
-  .container img {
+.container img {
     width: 100%;
     height: auto;
   }
   
-  .container .service_btn {
+.container .service_btn {
     position: absolute;
     padding: 5px;
     top: 50%;
@@ -100,11 +100,15 @@ body {
     text-decoration: none;
   }
   
-  .servicesImg:hover {
+.servicesImg:hover {
     opacity: 0.7;
     filter: alpha(opacity=50);
     cursor: pointer;
   } 
+
+.servicesImg {
+    padding-top: 8px;
+}
 
 /* Footer Style Rules */
 .page-footer {
