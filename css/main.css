@@ -35,6 +35,13 @@ body {
 
 }
 
+.anchor {
+    display: block;
+    height: 65px;
+    margin-top: -65px;
+    visibility: hidden;
+}
+
 #googleMap {
     height: 300px;
 }
@@ -66,12 +73,23 @@ body {
     background-size: cover;
 }
 
-.anchor {
-    display: block;
-    height: 65px;
-    margin-top: -65px;
-    visibility: hidden;
+#gallery_btn {
+    margin: 0 auto;
+    margin-top: 10px;
+    display: none;
 }
+
+@media (max-width: 575px) {
+    #gallery_btn {
+        display: block;
+    }
+
+    .extraGallery {
+        display: none;
+    }
+    
+}
+
 
 /* Services Section */
 .container {
